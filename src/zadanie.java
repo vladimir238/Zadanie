@@ -5,7 +5,8 @@ class Loader {
         int value = add (3, 4);
         int result = add(value, 10);
         System.out.println(result);
-        System.out.println("Внесли изменения в Branch1");
+        System.out.println("Branch 2");
+        System.out.println("args = " + Arrays.deepToString(args));
 
     }
 
